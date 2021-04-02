@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Concept Of Pseudo Classes</title>
+ 
+</head>
+<body>
+    <div class="my-info" style="margin:5px; color:#ff7b23; font-size: large;">
+        <p>Name :Utsav Dabhi</p>
+        <p>Er:180020107008</p>
+    </div>
+    <div class="main">
+        <h1>Concept Of Pseudo Classes </h1>
+        
+    
+        <h4>Select Background Color</h4>
+
+        <form>
+            <label for="favcolor">Select your favorite color :</label>
+            <input type="color" id="colorInput">
+            <input type="button" id="colorbutton" value="Click Here" onclick="changeColor()">
+        </form>             
+      
+   </div>
+
+<a href="index2.html">Next</a>
+    
+   <script>
+    function changeColor() {
+        let color = document.getElementById("colorInput").value;
+
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</body>
+</html>
